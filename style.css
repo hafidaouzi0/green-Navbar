@@ -124,19 +124,37 @@ span a:hover{
         display: block;
      
     }
-    .list{
+    .list ul{
         position: absolute;
-        top: 5%;
+        top: 60%;
        background-color: #7ED957;
         right: 2%;
+        
         width: 270px;
         height: 29vh;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         border-radius: 10px;
+        z-index: -1;
+        align-items: center;
     }
+    
     .list a{
         display: block;
+        margin: 12px 0;
+		padding: 0px 25px;
+    }
+    .connect{
+        margin-left: 40px;
+       display: flex;
+       align-items: center;
+       margin-bottom: 9px;
+    }
+    .sign{
+       display: flex;
+       margin-right: 20px;
+       margin-left: 10px;
+      
     }
 }
