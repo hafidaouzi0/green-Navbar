@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ 
+.banner{
+   
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(1, 1, 1, 0.834);
+   
+
+
+}
+
+.navbar{
+width: 90%;
+position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    
+}
+
+.logo{
+    margin-left: 100px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.list ul{
+    display: inline-block;
+
+   
+}
+.list ul li {
+    display: inline-block;
+ margin-right: 30px;
+   
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.connect{
+    color: white;
+    display: flex;
+margin-left: 10px;
+align-items: center;
+    
+    
+}
+.sign{
+    margin-right: 20px;
+    margin-left: 160px;
+}
+ul li a:hover{
+    color: #7ED957;
+}
+.sign:hover{
+    color: #7ED957;
+}
+.connect span:hover{
+color: #7ED957;
+}
+i{
+    color: #7ED957;
+    margin-right: 6px;
+}
+.navbar ul li a.active{
+    color: #7ED957;
+}
+.menu{
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+   display: none;
+}
+
+@media(max-width: 1280px){
+
+  .logo{
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .connect{
+    margin-right: 10px;
+  }
+  .sign{
+    margin-right: 9px;
+  }
+  
+  
+   
+
+
+}
+span a{
+text-decoration: none;
+color: white;
+}
+span a:hover{
+    
+    color:#7ED957;
+    }
+@media(max-width:1164px){
+
+    .menu{
+        display: block;
+     
+    }
+    .list{
+        position: absolute;
+        top: 5%;
+       background-color: #7ED957;
+        right: 2%;
+        width: 270px;
+        height: 29vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+    }
+    .list a{
+        display: block;
+    }
+}
